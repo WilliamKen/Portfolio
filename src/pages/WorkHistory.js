@@ -13,6 +13,7 @@ const workHistory = [
       'Utilized macros for complex automations to streamline processes.',
       'Provided training on Excel basics and intermediate functionalities to staff.',
     ],
+    className: 'job-1'
   },
   {
     date: 'September 2021 - December 2023',
@@ -25,6 +26,7 @@ const workHistory = [
       'Contributed to strategic planning efforts for the department.',
       'Created clear and concise marketing materials using Adobe Illustrator.',
     ],
+    className: 'job-2'
   },
   {
     date: 'September 2019 - August 2021',
@@ -37,6 +39,7 @@ const workHistory = [
       'Delivered presentations and public speaking engagements to promote campus recreation.',
       'Supported event planning and execution on campus.',
     ],
+    className: 'job-3'
   },
   {
     date: 'August 2018 - August 2019',
@@ -48,6 +51,7 @@ const workHistory = [
       'Developed flyers and signage to promote events and initiatives.',
       'Assisted in organizing and staffing campus events, distributing information to attendees.',
     ],
+    className: 'job-4'
   }
 ];
 
@@ -57,7 +61,7 @@ const WorkHistory = () => {
       <h2>Work History</h2>
       <div className="timeline">
         {workHistory.map((job, index) => (
-          <div key={index} className="timeline-item">
+          <div key={index} className={`timeline-item ${job.className}`}>
             <div className="timeline-date">{job.date}</div>
             <div className="timeline-content">
               <h3>{job.title}</h3>

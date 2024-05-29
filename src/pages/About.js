@@ -5,10 +5,30 @@ import '../css/About.css';
 function About() {
   useEffect(() => {
     const handleScroll = () => {
+      const heroContent = document.querySelector('.hero-content');
       const heroText = document.querySelector('.hero-text');
+      const profilePic = document.querySelector('.profile-pic');
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      if (scrollTop > 100) {
-        heroText.classList.add('hidden');
+      
+      // Parallax effect
+      if (window.innerWidth > 768) {
+        const translateValue = scrollTop * 0.2;
+        heroContent.style.transform = `translateY(${translateValue}px)`;
+        heroText.style.transform = `translateY(${translateValue}px)`;
+        profilePic.style.transform = `translateY(${translateValue}px)`;
+      } else {
+        heroContent.style.transform = 'none';
+        heroText.style.transform = 'none';
+        profilePic.style.transform = 'none';
+      }
+
+      // Hide text on scroll for mobile
+      if (window.innerWidth <= 768) {
+        if (scrollTop > 100) {
+          heroText.classList.add('hidden');
+        } else {
+          heroText.classList.remove('hidden');
+      }
       } else {
         heroText.classList.remove('hidden');
       }
@@ -43,7 +63,7 @@ function About() {
         <div className="hero-bg"></div>
         <div className="hero-content">
           <img src={profilePic} alt="Profile" className="profile-pic" />
-          <div className="hero-text">
+          <div className="hero-text hidden-on-scroll">
             <h1 className="hero-heading">Hello, I'm a Web Developer and Designer</h1>
             <p className="hero-subheading">
               My passion is creating detailed, eye-catching projects that convey important information naturally 
