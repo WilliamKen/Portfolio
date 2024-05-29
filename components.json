@@ -1,0 +1,31 @@
+{
+    "components": {
+      "button": {
+        "baseStyle": {
+          "backgroundColor": "#0CABA8",
+          "color": "#ffffff",
+          "borderRadius": "5px"
+        },
+        "variants": {
+          "contained": {
+            "backgroundColor": "#0CABA8",
+            "color": "#ffffff"
+          },
+          "outlined": {
+            "backgroundColor": "transparent",
+            "border": "2px solid #0CABA8",
+            "color": "#0CABA8"
+          }
+        }
+      },
+      "modal": {
+        "baseStyle": {
+          "backgroundColor": "#267365",
+          "padding": "20px",
+          "borderRadius": "10px",
+          "boxShadow": "0 2px 10px rgba(0, 0, 0, 0.3)"
+        }
+      }
+    }
+  }
+  

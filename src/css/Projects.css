@@ -1,0 +1,53 @@
+.projects-container {
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .accordion-item {
+    border-top: 1px solid #ddd;
+  }
+  
+  .accordion-item:first-child {
+    border-top: none;
+  }
+  
+  .accordion-title {
+    background: #f8f8f8;
+    cursor: pointer;
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    border: none;
+    width: 100%;
+    outline: none;
+    transition: background 0.3s ease;
+  }
+  
+  .accordion-title:hover {
+    background: #e0e0e0;
+  }
+  
+  .accordion-content {
+    padding: 15px;
+    background: #fff;
+    color: #333; 
+  }
+  
+  .project-link {
+    color: #0CABA8;
+    text-decoration: none;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+  }
+  
