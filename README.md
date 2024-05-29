@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+**My Portfolio**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio website! This site is a personal showcase of my skills, projects, and code snippets. I've built it using React and various web technologies to create a dynamic and engaging experience. Here’s a quick rundown of what you’ll find:
 
-## Available Scripts
+**Features**
 
-In the project directory, you can run:
+**Code Drawers**
 
-### `npm start`
+I use code drawers to neatly organize and display my code snippets. You can open and close these drawers to explore the code behind my projects without leaving the page. This makes it easy to dive into the details of my work.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Modals**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Modals are used throughout the site to provide additional information without cluttering the main layout. Whether it's project details or more about my skills, you can find this information in smooth, user-friendly pop-ups.
+Responsive Design
 
-### `npm test`
+The entire site is designed to be fully responsive. Whether you're on a desktop, tablet, or mobile device, the site adjusts seamlessly to provide an optimal viewing experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Sections**
 
-### `npm run build`
+**Home**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+A brief introduction and an overview of who I am. You’ll find links to the main sections of the site and a snapshot of my latest projects.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**About Me**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Get to know me better! This section covers my background, interests, and professional journey.
 
-### `npm run eject`
+**Skills**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Here, I list out my key skills, from programming languages to tools and frameworks. Each skill is displayed with a brief description and proficiency level.
+Projects
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+A showcase of the projects I’ve worked on. Each project includes a description, the technologies used, and links to live demos and code repositories.
+Work History
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+An overview of my professional experience, detailing my roles and responsibilities in various positions I’ve held.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Technologies Used**
 
-## Learn More
+    React: The main framework used to build the site.
+    CSS Modules: For styling components with scoped CSS.
+    React Router: To handle navigation between different sections.
+    gh-pages: For deploying the site on GitHub Pages.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thanks for visiting my portfolio! I hope you enjoy exploring my work as much as I enjoyed creating it.
