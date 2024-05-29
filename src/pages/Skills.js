@@ -56,32 +56,32 @@ const skills = [
   {
     name: 'Code Drawer Component',
     description: 'A React component for displaying and explaining code snippets in a drawer format.',
-    link: ''
+    link: 'https://github.com/WilliamKen/Portfolio/tree/master/src/components/CodeDrawer'
   },
   {
     name: 'Contact Form Implementation',
     description: 'A React component for handling contact form submissions using EmailJS.',
-    link: ''
+    link: 'https://github.com/WilliamKen/Portfolio/tree/master/src/components/ContactForm'
   },
   {
     name: 'Image Drawer Component',
     description: 'A React component for displaying a series of images in a modal drawer format.',
-    link: ''
+    link: 'https://github.com/WilliamKen/Portfolio/tree/master/src/components/ImageDrawer'
   },
   {
     name: 'Timeline CSS for Work History',
     description: 'CSS for creating a responsive and visually appealing timeline for work history.',
-    link: ''
+    link: 'https://github.com/WilliamKen/Portfolio/blob/master/src/css/WorkHistory.css'
   },
   {
     name: 'Animated CSS for Home Page',
     description: 'CSS animations for enhancing the visual appeal of the home page.',
-    link: ''
+    link: 'https://github.com/WilliamKen/Portfolio/blob/master/src/css/Home.css'
   },
   {
     name: 'React Router Navigation',
     description: 'Implementation of navigation using React Router for seamless routing between pages.',
-    link: ''
+    link: 'https://github.com/WilliamKen/Portfolio/blob/master/src/App.js'
   },
   {
     name: 'Connecting to Airtable with Environment Variables',
