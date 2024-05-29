@@ -1,0 +1,146 @@
+@keyframes gradientBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 9ch }
+}
+
+@keyframes blinkCaret {
+  from, to { border-color: transparent }
+  50% { border-color: #0FC2C0; }
+}
+
+@keyframes pulse {
+  0% {
+    text-shadow: 0 0 10px #0FC2C0;
+  }
+  50% {
+    text-shadow: 0 0 20px #0FC2C0;
+  }
+  100% {
+    text-shadow: 0 0 10px #0FC2C0;
+  }
+}
+
+.home-page {
+  text-align: center;
+  background: radial-gradient(circle, #403F3D, #0D0D0D);
+  color: #F2ECE9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.welcome-message {
+  margin-bottom: 20px;
+  padding-top: 60px; 
+}
+
+.typing-effect {
+  font-size: 3.5rem;
+  color: #0FC2C0;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: .15em solid #0FC2C0;
+  animation: typing 1.25s steps(9, end), blinkCaret .75s step-end infinite, pulse 2s infinite;
+  animation-fill-mode: forwards;
+  margin-top: -20px;
+  text-align: center;
+  display: inline-block;
+  width: 9ch;
+}
+
+.static-line {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.welcome-message a {
+  color: #0FC2C0;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.welcome-message a:hover {
+  text-decoration: underline;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; 
+  flex-wrap: wrap;
+  max-width: 700px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contact-form, .code-drawer-container, .image-drawer-container {
+  flex: 1;
+  min-width: 300px;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  align-self: center; 
+  max-height: 600px; 
+  overflow: auto; 
+}
+
+@media (max-width: 768px) {
+  .typing-effect {
+    font-size: 2.5rem;
+    animation: typing 2s steps(9, end), blinkCaret .75s step-end infinite, pulse 2s infinite;
+    width: 9ch;
+  }
+
+  .static-line {
+    font-size: 1rem;
+  }
+
+  .content-container {
+    flex-direction: column; 
+    align-items: center;
+    gap: 10px; 
+  }
+}
+
+@media (max-width: 480px) {
+  .typing-effect {
+    font-size: 2rem;
+    animation: typing 2s steps(9, end), blinkCaret .75s step-end infinite, pulse 2s infinite;
+    width: 9ch;
+  }
+
+  .static-line {
+    font-size: 0.9rem;
+  }
+}
