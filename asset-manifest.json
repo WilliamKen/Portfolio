@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.ac1616f9.chunk.css",
+    "main.js": "/Portfolio/static/js/main.1385c6bc.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.1385c6bc.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.b347e779.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.b347e779.js.map",
+    "static/js/2.0bfc5fec.chunk.js": "/Portfolio/static/js/2.0bfc5fec.chunk.js",
+    "static/js/2.0bfc5fec.chunk.js.map": "/Portfolio/static/js/2.0bfc5fec.chunk.js.map",
+    "static/js/3.19466792.chunk.js": "/Portfolio/static/js/3.19466792.chunk.js",
+    "static/js/3.19466792.chunk.js.map": "/Portfolio/static/js/3.19466792.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.aaefbbe1383e1f32f961e9c532d88ac3.js": "/Portfolio/precache-manifest.aaefbbe1383e1f32f961e9c532d88ac3.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.ac1616f9.chunk.css.map": "/Portfolio/static/css/main.ac1616f9.chunk.css.map",
+    "static/js/2.0bfc5fec.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.0bfc5fec.chunk.js.LICENSE.txt",
+    "static/media/membershipBiFold-01.jpg": "/Portfolio/static/media/membershipBiFold-01.7f57b993.jpg",
+    "static/media/membershipBiFold-02.jpg": "/Portfolio/static/media/membershipBiFold-02.8dfd9ba5.jpg",
+    "static/media/membershipModel.png": "/Portfolio/static/media/membershipModel.413e5d82.png",
+    "static/media/postCard_Page_1.png": "/Portfolio/static/media/postCard_Page_1.152634be.png",
+    "static/media/postCard_Page_2.png": "/Portfolio/static/media/postCard_Page_2.73da592a.png",
+    "static/media/profile.jpg": "/Portfolio/static/media/profile.0039a2ca.jpg",
+    "static/media/values.png": "/Portfolio/static/media/values.91e520d9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b347e779.js",
+    "static/js/2.0bfc5fec.chunk.js",
+    "static/css/main.ac1616f9.chunk.css",
+    "static/js/main.1385c6bc.chunk.js"
+  ]
+}
