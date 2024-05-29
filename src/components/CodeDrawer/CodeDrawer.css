@@ -1,0 +1,56 @@
+.code-drawer-container {
+  margin: 20px;
+  text-align: center; 
+  max-width: 700px;
+}
+
+.code-columns {
+  display: flex;
+  justify-content: center;
+  gap: 80px; 
+}
+
+.code-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.drawer-box {
+  width: 100%; 
+  padding: 20px;
+  background-color: #403F3D; 
+  color: #F2ECE9; 
+  max-height: 80vh; 
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.drawer-title {
+  margin-bottom: 10px;
+}
+
+.code-content {
+  background-color: #282c34;
+  color: #61dafb;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  margin-bottom: 10px;
+}
+
+.code-explanation {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.close-button {
+  background-color: #0FC2C0;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.close-button:hover {
+  background-color: #0CABA8;
+}
