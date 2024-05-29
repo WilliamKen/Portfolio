@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://williamken.github.io/Portfolio",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -11,6 +12,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^6.1.1",
     "prismjs": "^1.29.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -19,6 +21,7 @@
     "react-router-dom": "^6.23.0",
     "react-scripts": "^3.0.1",
     "react-slick": "^0.30.2",
+    "save-dev": "^0.0.1-security",
     "shadcn-ui": "^0.8.0",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
@@ -27,7 +30,9 @@
     "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "NODE_OPTIONS=--openssl-legacy-provider react-scripts test",
-    "eject": "NODE_OPTIONS=--openssl-legacy-provider react-scripts eject"
+    "eject": "NODE_OPTIONS=--openssl-legacy-provider react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -51,3 +56,5 @@
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
+
+
