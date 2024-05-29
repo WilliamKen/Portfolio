@@ -5,13 +5,13 @@ import './ImageDrawer.css';
 const images = [
   {
     title: 'Membership Model',
-    src: [require('../../assets/images/membershipModel.jpg')],
+    src: [require('../../assets/images/membershipModel.png')],
   },
   {
     title: 'Post Card',
     src: [
-      require('../../assets/images/postCard_Page_1.jpg'),
-      require('../../assets/images/postCard_Page_2.jpg'),
+      require('../../assets/images/postCard_Page_1.png'),
+      require('../../assets/images/postCard_Page_2.png'),
     ],
   },
   {
@@ -21,8 +21,8 @@ const images = [
   {
     title: 'Membership Bi-Fold',
     src: [
-      require('../../assets/images/membershipBiFold-01.jpg'),
       require('../../assets/images/membershipBiFold-02.jpg'),
+      require('../../assets/images/membershipBiFold-01.jpg'),
     ],
   },
 ];

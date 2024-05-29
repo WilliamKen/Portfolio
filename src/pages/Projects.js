@@ -20,7 +20,12 @@ const projects = [
   {
     name: 'Portfolio Web Design',
     description: 'A React-based portfolio website showcasing my projects and skills.',
-    link: 'https://github.com/WilliamKen/your-portfolio-repo'
+    link: 'https://github.com/WilliamKen/Portfolio'
+  },
+  {
+    name: 'Group Fitness Schedule',
+    description: 'A React-based web application for dynamically displaying a Mon-Sat schedule',
+    link: 'https://github.com/WilliamKen/Group-Fitness-Schedule'
   }
 ];
 

@@ -5,9 +5,13 @@ import '../css/About.css';
 function About() {
   useEffect(() => {
     const handleScroll = () => {
-      const hero = document.querySelector('.about-hero');
+      const heroText = document.querySelector('.hero-text');
       const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      hero.style.transform = `translateY(${scrollTop * 0.5}px)`;
+      if (scrollTop > 100) {
+        heroText.classList.add('hidden');
+      } else {
+        heroText.classList.remove('hidden');
+      }
     };
 
     const observer = new IntersectionObserver(
@@ -70,7 +74,7 @@ function About() {
           <h2 className="section-heading">Goals</h2>
           <p className="section-text">
             I am eager to leverage my expertise in a team-oriented environment, combining my analytical skills 
-            with my design acumen to contribute to impactful projects. I aim to continue growing in the field of 
+            with my design background to contribute to impactful projects. I aim to continue growing in the field of 
             web development and design, always striving to create intuitive and visually appealing user experiences.
           </p>
         </section>

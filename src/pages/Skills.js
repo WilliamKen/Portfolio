@@ -52,7 +52,6 @@ const skills = [
     description: 'Fetching and displaying data from the backend database on the frontend.',
     link: 'https://github.com/WilliamKen/Robyns-Spellbook/blob/master/Back%20End/server.js'
   },
-  //update the links
   {
     name: 'Code Drawer Component',
     description: 'A React component for displaying and explaining code snippets in a drawer format.',

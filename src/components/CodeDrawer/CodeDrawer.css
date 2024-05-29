@@ -54,3 +54,24 @@
 .close-button:hover {
   background-color: #0CABA8;
 }
+
+@media (max-width: 768px) {
+  .code-columns {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .code-column {
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .drawer-box {
+    padding: 10px;
+  }
+
+  .code-explanation {
+    font-size: 0.9rem;
+  }
+}
