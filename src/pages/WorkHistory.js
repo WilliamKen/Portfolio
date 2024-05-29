@@ -2,7 +2,6 @@ import React from 'react';
 import '../css/WorkHistory.css';
 
 const workHistory = [
-
   {
     date: 'January 2024 - Present',
     title: 'Microsoft Excel Specialist',
@@ -58,7 +57,7 @@ const WorkHistory = () => {
       <h2>Work History</h2>
       <div className="timeline">
         {workHistory.map((job, index) => (
-          <div key={index} className={`timeline-item job-${index + 1}`}>
+          <div key={index} className="timeline-item">
             <div className="timeline-date">{job.date}</div>
             <div className="timeline-content">
               <h3>{job.title}</h3>
