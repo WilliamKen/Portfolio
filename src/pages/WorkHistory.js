@@ -17,7 +17,7 @@ const workHistory = [
   },
   {
     date: 'September 2021 - December 2023',
-    title: 'Graduate Assistant for Marketing',
+    title: 'Graduate Assistant for Graphic Design and Marketinf',
     company: 'UH - Clear Lake Campus Recreation and Wellness',
     responsibilities: [
       'Led and managed a team of five student staff, focusing on professional development.',
@@ -30,7 +30,7 @@ const workHistory = [
   },
   {
     date: 'September 2019 - August 2021',
-    title: 'Program Assistant for Marketing',
+    title: 'Program Assistant for Graphic Design and Marketing',
     company: 'UH - Clear Lake Campus Recreation and Wellness',
     responsibilities: [
       'Collaborated with the supervisor to delegate tasks within the marketing team.',
