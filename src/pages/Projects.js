@@ -3,7 +3,7 @@ import '../css/Projects.css';
 
 const projects = [
   {
-    name: 'Robyn\'s Spellbook',
+    name: 'D&D 5e Resource Tracker',
     description: 'A dynamic web application for managing D&D character spells and resources.',
     link: 'https://github.com/WilliamKen/Robyns-Spellbook'
   },

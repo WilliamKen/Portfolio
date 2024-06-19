@@ -139,7 +139,7 @@
   font-size: 14px;
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
   .timeline::after {
     display: none;
@@ -150,8 +150,8 @@
     padding: 20px 0;
     margin-left: auto;
     margin-right: auto;
-    text-align: left; /* Align text to the left for readability */
-    left: 0 !important; /* Remove any left positioning */
+    text-align: left; 
+    left: 0 !important; 
   }
 
   .timeline-item::after {

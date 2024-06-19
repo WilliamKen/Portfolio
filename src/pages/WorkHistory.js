@@ -4,20 +4,19 @@ import '../css/WorkHistory.css';
 const workHistory = [
   {
     date: 'January 2024 - Present',
-    title: 'Microsoft Excel Specialist',
+    title: 'Junior Business Analyst',
     company: 'UH - Clear Lake Campus Recreation and Wellness',
     responsibilities: [
-      'Developed dynamic and user-friendly Excel workbooks for various departmental areas.',
-      'Optimized efficiency by automating repetitive Excel tasks.',
-      'Collaborated with department heads to identify and meet their data management needs.',
-      'Utilized macros for complex automations to streamline processes.',
-      'Provided training on Excel basics and intermediate functionalities to staff.',
+      'Analyze and document business processes to identify areas for improvement and increased efficiency.',
+      'Collaborate with cross-functional teams to develop and implement innovative solutions.',
+      'Facilitate meetings and workshops to elicit requirements and validate solutions with stakeholders.',
+      'Assist in project management tasks, including planning, monitoring, and reporting project progress.',
     ],
     className: 'job-1'
   },
   {
     date: 'September 2021 - December 2023',
-    title: 'Graduate Assistant for Graphic Design and Marketinf',
+    title: 'Graduate Assistant for Graphic Design and Marketing',
     company: 'UH - Clear Lake Campus Recreation and Wellness',
     responsibilities: [
       'Led and managed a team of five student staff, focusing on professional development.',
