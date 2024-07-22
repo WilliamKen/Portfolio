@@ -25,7 +25,8 @@ const projects = [
   {
     name: 'Group Fitness Schedule',
     description: 'A React-based web application for dynamically displaying a Mon-Sat schedule',
-    link: 'https://github.com/WilliamKen/Group-Fitness-Schedule'
+    link: 'https://github.com/WilliamKen/Group-Fitness-Schedule',
+    siteLink: 'https://group-fitness-schedule.netlify.app/'
   }
 ];
 
@@ -48,9 +49,16 @@ const Projects = () => {
             {activeIndex === index && (
               <div className="accordion-content">
                 <p>{project.description}</p>
-                <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
-                  View Project
-                </a>
+                <div className="link-container">
+                  <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">
+                    View Project on GitHub
+                  </a>
+                  {project.siteLink && (
+                    <a href={project.siteLink} target="_blank" rel="noopener noreferrer" className="project-link">
+                      View Live Site
+                    </a>
+                  )}
+                </div>
               </div>
             )}
           </div>
